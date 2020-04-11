@@ -18,7 +18,8 @@ export const PLAYER_ONE = {
     37: DIRECTIONS.LEFT
   },
   direction: DIRECTIONS.RIGHT,
-  position: {x: UNIT * 6, y: UNIT * 6}
+  position: {x: UNIT * 6, y: UNIT * 6},
+  hasDied: false
 }
 
 export const PLAYER_TWO = {
@@ -31,5 +32,6 @@ export const PLAYER_TWO = {
     65: DIRECTIONS.LEFT
   },
   direction: DIRECTIONS.LEFT,
-  position: {x: UNIT * 43, y: UNIT * 43}
+  position: {x: UNIT * 43, y: UNIT * 43},
+  hasDied: false
 }
