@@ -3,3 +3,35 @@
   outline: 1px solid #333;
   outline-offset: 5px;
 }
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.instructions__player {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.play-info {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+  color: #FFF;
+  background-color: #00000088;
+}
+
+.button {
+  padding: 10px 30px;
+  margin: 20px auto 0;
+  font-size: 1.2rem;
+  font-family: 'Bungee', sans-serif;
+  cursor: pointer;
+}

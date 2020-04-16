@@ -1,6 +1,10 @@
 export const UNIT = 15;
 export const BOARD_SIZE = 750;
 
+export const GAME_READY = 1;
+export const GAME_PLAYING = 2;
+export const GAME_ENDED = 3;
+
 export const DIRECTIONS = {
   LEFT: { x: -UNIT, y: 0},
   RIGHT: { x: UNIT, y: 0},
@@ -19,7 +23,8 @@ export const PLAYER_ONE = {
   },
   direction: DIRECTIONS.RIGHT,
   position: {x: UNIT * 6, y: UNIT * 6},
-  hasDied: false
+  hasDied: false,
+  instructions: 'Flechas de dirección'
 }
 
 export const PLAYER_TWO = {
@@ -33,5 +38,6 @@ export const PLAYER_TWO = {
   },
   direction: DIRECTIONS.LEFT,
   position: {x: UNIT * 43, y: UNIT * 43},
-  hasDied: false
+  hasDied: false,
+  instructions: 'Teclas AWSD'
 }
